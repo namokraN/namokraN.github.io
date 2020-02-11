@@ -414,4 +414,14 @@ and (max-device-width : 560px) {
 		padding: 0;
 		float: none;
 	}
+
+	.logo h1 {
+		font: normal 235% 'century gothic', arial, sans-serif;
+	}
+
+	.logo h2 {
+		font: normal  100% 'century gothic', arial, sans-serif;
+		font-style: italic;
+		color: white;
+	}
 }
