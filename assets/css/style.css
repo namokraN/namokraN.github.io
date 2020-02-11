@@ -404,4 +404,14 @@ and (max-device-width : 560px) {
 	.sidebar_container {
 		display: none;
 	}
+
+	ul.menu {
+		float: none;
+	}
+
+	ul.menu li {
+		margin: 0;
+		padding: 0;
+		float: none;
+	}
 }
