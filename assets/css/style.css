@@ -389,7 +389,7 @@ and (max-device-width : 560px) {
 
 	.logo {
 		width: 100%;
-		padding: 0;
+		padding: 10px;
 	}
 
 	.site_content {
@@ -412,7 +412,7 @@ and (max-device-width : 560px) {
 
 	ul.menu li {
 		margin: 0;
-		padding-bottom: 10px;
+		padding-bottom: 0;
 		float: none;
 	}
 
