@@ -468,4 +468,21 @@ and (max-device-width : 560px) {
 	.info_film .button {
 		float: none;
 	}
+
+	/* FOR RATINGS*/
+	
+	table {
+		
+	}
+
+	th {
+		font-size: 75%;
+	}
+
+	td {
+		padding: 0;
+		margin: 0;
+		font-size: 95%;
+		text-align: left;
+	}
 }
