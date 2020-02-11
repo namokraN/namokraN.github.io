@@ -384,16 +384,24 @@ td img {
 and (min-device-width : 320px)
 and (max-device-width : 560px) {
 
-	.header, .footer {
+	.header {
 		background-color: #257965;
 		min-width: 100%;
 		height: 20%;
 		text-align: center;
 	}
 
+	.footer {
+		display: none;
+	}
+
 	.logo {
 		width: 100%;
 		padding-bottom: 10px;
+	}
+	
+	.logo_text h2 {
+		display: none;
 	}
 
 	.site_content {
@@ -472,7 +480,8 @@ and (max-device-width : 560px) {
 	/* FOR RATINGS*/
 	
 	table {
-		padding-right: 3%
+		padding-right: 3%;
+		margin-bottom: 5%;
 	}
 
 	th {
@@ -485,6 +494,7 @@ and (max-device-width : 560px) {
 		font-size: 95%;
 		text-align: left;
 	}
+
 
 	/*FOR SHOW PAGE*/
 
@@ -506,5 +516,24 @@ and (max-device-width : 560px) {
 		margin: 0;
 		margin-left: 11%;
 		margin-bottom: 7%; 
+	}
+
+	.reviews {
+		width: 97%;
+		text-align: left;
+	}
+	
+	.send input[type="text"] {
+		width: 85%;
+	}
+
+	.send textarea, .content textarea {
+		width: 90%;
+	}
+
+/*for contact*/
+
+	.feedback input[type="submit"] {
+		margin-bottom: 5%;
 	}
 }
