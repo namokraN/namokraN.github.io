@@ -472,7 +472,7 @@ and (max-device-width : 560px) {
 	/* FOR RATINGS*/
 	
 	table {
-		
+		padding-right: 3%
 	}
 
 	th {
@@ -484,5 +484,12 @@ and (max-device-width : 560px) {
 		margin: 0;
 		font-size: 95%;
 		text-align: left;
+	}
+
+	/*FOR SHOW PAGE*/
+
+	.content .film_trailer {
+		height: 100%;
+		width: 88%;
 	}
 }
