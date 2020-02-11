@@ -389,6 +389,7 @@ and (max-device-width : 560px) {
 
 	.logo {
 		width: 100%;
+		padding: 0;
 	}
 
 	.site_content {
