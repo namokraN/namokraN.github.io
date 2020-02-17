@@ -5,7 +5,7 @@
 
 .header h1 {
 	font-size: 300%;
-	letter-spacing: 13px;
+	letter-spacing: 15px;
 	color: orange;
 }
 
@@ -37,5 +37,14 @@
 	.nav-pills>li {
 		float: none;
 		text-align: center;
+	}
+
+	.header h1 {
+		font-size: 280%;
+		letter-spacing: 5px;
+	}
+
+	.header {
+		 /*text-align: center;*/
 	}
 }
