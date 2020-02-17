@@ -1,183 +1,69 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Киномонстр</title>
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-	<meta name = "description" content = "Киномонстр - портал о кино" charset="utf-8">
-	<meta name = "keywords" content = "фильмы, фильмы онлайн, hd" charset="utf-8">
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Киномонстр Bootstrap 3</title>
 
-	<div class = "main">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-		<div class="header">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
 
-			<div class="logo">
+    <div class="container-fluid">
+      <div class="row">
 
-				<div class="logo_text">
+        <nav role="navigation" class="navbar navbar-inverse">
 
-					<h1><a href="index.html">Киномонстр</a></h1>
-					<h2>Кино - наша страcть!</h2>
+        <div class="container">
+          <div class="header">
+            <h1><a href="#">КиноМонстр</a></h1>
+            <p>Кино - наша страсть!</p>
+          </div>
+          
+          <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 
-				</div>
 
-			</div>
+          </div>  
 
-			<div class="menubar">
+          <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+            
+            <ul class="nav nav-pills">
+              <li class="active"><a href="#">Главная</a></li>
+              <li><a href="#">Фильмы</a></li>
+              <li><a href="#">Сериалы</a></li>
+              <li><a href="#">Рейтинг фильмов</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
 
-				<ul class="menu">
+        </div> 
 
-					<li class="selected"><a href="index.html">Главная</a></li>
-					<li><a href="films.html">Фильмы</a></li>
-					<li><a href="#">Сериалы</a></li>
-					<li><a href="rating.html">Рейтинг фильмов</a></li>
-					<li><a href="contact.html">Контакты</a></li>
+        </nav>
 
-				</ul>
+      </div>
+        
+    </div>
 
-			</div>
-
-		</div>
-
-		<div class="site_content">
-
-			<div class="sidebar_container">
-
-				<div class="sidebar">
-
-					<h2>Поиск</h2>
-					<form method="post" action="#" id="search_form">
-						<input type="search" name="search_field" placeholder="ваш запрос">
-						<input type="submit" class="btn" name="btn" value="найти">
-					</form>
-
-				</div>
-
-				<div class="sidebar">
-
-					<h2>Вход</h2>
-					<form metod="post" action="#" id="login">
-						<input type="text" name="login_field" placeholder="логин">
-						<input type="password" name="password_field" placeholder="пароль">
-						<input type="submit" class="btn" name="btn" value="вход">
-
-						<div class="lables_passreg_text">
-
-							<span><a href="#">Забыли пароль?</a></span>|
-							<span><a href="#">Регистрация</a></span>
-					
-						</div>
-
-					</form>
-
-				</div>
-
-				<div class="sidebar">
-
-					<h2>Новости</h2>
-					<span>31.03.2019</span>
-					<p>Мы запустили расширенный поиск</p>
-					<a href="#">читать</a>
-
-				</div>
-
-				<div class="sidebar">
-
-					<h2>Рейтинг фильмов</h2>
-					<ul>
-						<li><a href="#">Интерстеллар</a><span class="rating_sidebar">8.1</span></li>
-						<li><a href="#">Матрица</a><span class="rating_sidebar">8.0</span></li>
-						<li><a href="#">Безумный Макс</a><span class="rating_sidebar">7.5</span></li>
-						<li><a href="#">Облачный атлас</a><span class="rating_sidebar">7.4</span></li>
-					</ul>
-
-				</div>
-
-			</div>
-
-			<div class="content">
-
-				<h1>Новые фильмы</h1>
-				<div class="films_block">
-
-					<a href="#"><img src="assets/img/matrix.png" alt="Матрица"></a>
-					<a href="#"><img src="assets/img/max.png" alt="Безумный Макс"></a>
-					<a href="show.html"><img src="assets/img/inter.png" alt="Интерстеллар"></a>
-					<a href="#"><img src="assets/img/cloud.png" alt="Облачный атлас"></a>
-
-				</div>
-
-				<h1>Новые сериалы</h1>
-
-				<div class="films_block">
-
-					<a href="#"><img src="assets/img/dead.png" alt="Ходячие мервецы"></a>
-					<a href="#"><img src="assets/img/silicon.png" alt="silicon"></a>
-					<a href="#"><img src="assets/img/breakingbad.png" alt="Во все тяжкие"></a>
-					<a href="#"><img src="assets/img/xfiles.png" alt="xfiles"></a>
-
-				</div>
-
-				<div class="posts">
-
-					<hr>
-					<h2><a href="#">Как снимали Интерстеллар</a></h2>
-					<div class="posts_content">
-						
-						<p>
-							
-							45 лет исполнилось Кристоферу Нолану — одному из самых успешных режиссеров нашего времени, чьи работы одинаково любимы как взыскательными критиками, так и простыми зрителями. Фильмом изначально занималась студия Paramount. Когда Кристофер Нолан занял место режиссера, студия Warner Bros., которая выпускала его последние фильмы, добилась участия в проекте.
-
-						</p>
-
-					</div>
-				
-					<p><a href="#">Читать</a></p>
-
-					<hr>
-					<h2><a href="#">Актер Том Хенкс поделился впечатлением о фестивале</a></h2>
-					<div class="posts_content">
-						
-						<p>
-							
-							16 февраля в Лондоне состоялась 67-я церемония вручения наград Британской киноакадемии. Леонардо ДиКаприо, Брэд Питт, Анджелина Джоли, Кейт Бланшетт, Хелен Миррен, Эми Адамс, Кристиан Бэйл, Альфонсо Куарон и другие гости и победители премии — в нашем репортаже.
-
-						</p>
-
-					</div>
-				
-					<p><a href="#">Читать</a></p>
-					
-					<hr>
-				</div>
-
-				</div>
-
-		</div>
-
-		</div>
-		
-
-		<div class="footer">
-
-			<p>
-				<a href="index.html">Главная</a> |
-				<a href="films.html">Фильмы</a> |
-				<a href="#">Сериалы</a> |
-				<a href="rating.html">Рейтинг фильмов</a> |
-				<a href="contact.html">Контакты</a> 
-			</p>
-			<p>wh-db.com 2015</p>
-
-		</div>
-
-	</div>	
-
-</body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
 </html>
