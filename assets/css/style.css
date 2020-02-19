@@ -80,3 +80,24 @@ footer a {
 footer a:hover {
 	color: #efefef;
 }
+
+.films_block {
+	text-align: center;
+}
+
+.films_block img {
+	margin-bottom: 5%;
+	border: 5px solid #dad7d5;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.films_label {
+	pading: 2%;
+	margin-bottom: 4%;
+
+}
+
+.margin-5 {
+	margin-top: 5%;
+}
