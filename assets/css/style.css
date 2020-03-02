@@ -29,6 +29,7 @@
 
 .navbar-inverse {
     padding-bottom: 1%;
+    border-radius: 0;
 }
 
 /* For small screens */
@@ -141,7 +142,21 @@ footer a:hover {
 	background-color: #f9f9f9;
 }
 
-.list-group-item .badge {
+.badge {
 	vertical-align: middle;
 	background-color: black;
+}
+
+.info-block {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	font-size: 120%;
+}
+
+.info-block .badge {
+	font-size: 80%;
+}
+
+.info-block span {
+	margin-right: 3%;
 }
