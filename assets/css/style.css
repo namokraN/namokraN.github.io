@@ -160,3 +160,8 @@ footer a:hover {
 .info-block span {
 	margin-right: 3%;
 }
+
+.panel .panel-heading {
+	background-color: #f0ad4e;
+	color: white;
+}
