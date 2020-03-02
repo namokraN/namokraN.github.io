@@ -82,6 +82,10 @@ footer a:hover {
 	color: #efefef;
 }
 
+textarea {
+	resize: none;
+}
+
 .films_block {
 	text-align: center;
 }
@@ -164,4 +168,8 @@ footer a:hover {
 .panel .panel-heading {
 	background-color: #f0ad4e;
 	color: white;
+}
+
+textarea.form-control {
+	height: 200px;
 }
