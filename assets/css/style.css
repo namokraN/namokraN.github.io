@@ -136,3 +136,12 @@ footer a:hover {
 .form-control {
 	border-radius: 0px;
 }
+
+.list-group-item {
+	background-color: #f9f9f9;
+}
+
+.list-group-item .badge {
+	vertical-align: middle;
+	background-color: black;
+}
