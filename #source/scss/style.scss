@@ -465,6 +465,25 @@ p{
 		max-width: 40%;
 	}
 
+	.slider__element:after {
+		width: 111%;
+	}
+	.header__menu {
+		margin-bottom: 0px;
+	}
+	.intro__title h2{
+		display: none;
+	}
+	.intro__title h1{
+		margin-top: 90px;
+	}
+	.intro__title{
+		margin-top: 0px !important;
+	}
+	.intro__title-slider {
+		padding-top: 20px;
+		padding-bottom: 60px;
+	}
 }
 
 @media (max-width: 767.98px) {
@@ -472,4 +491,8 @@ p{
 		max-width: none;
 		padding: 0 10px;
 	}
+}
+
+div {
+	// border: 1px solid red;
 }
