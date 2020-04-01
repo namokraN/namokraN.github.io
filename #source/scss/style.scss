@@ -430,18 +430,25 @@ p{
 	.container {
 		max-width: 990px;
 	}
+	.header__menu {
+		display: none;
+	}
+
 	.intro__title h1 {
 		font-size: 80px;
 	}
 	.counter__item {
 		padding: 40px 0px;
-		width: 100%;
 		height: 100%;
+	}
+	.counter__item h2{
+		font-size: 62px;
 	}
 	.counter__row {
 		// flex-direction: column;
 		align-items: flex-start;
 		flex-wrap: wrap;
+		width: 99%;
 	}
 	.counter__row p{
 		writing-mode: vertical-rl;
@@ -477,7 +484,7 @@ p{
 	}
 
 	.slider__element:after {
-		width: 111%;
+		width: 90%;
 	}
 	.header__menu {
 		margin-bottom: 0px;
@@ -495,6 +502,9 @@ p{
 		padding-top: 20px;
 		padding-bottom: 60px;
 	}
+	// div {
+	// 	border: 1px solid red;
+	// }
 }
 
 @media (max-width: 767.98px) {
