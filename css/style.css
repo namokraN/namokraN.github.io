@@ -461,12 +461,12 @@ p {
     transform: translateY(15px);
   }
   60% {
-    transform: rotate(-15deg);
+    transform: rotate(-10deg);
   }
   80% {
-    transform: rotate(15deg);
+    transform: rotate(10deg);
   }
   100% {
-    transform: rotate(-15deg);
+    transform: rotate(-10deg);
   }
 }
