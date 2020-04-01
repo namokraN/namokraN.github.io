@@ -482,7 +482,7 @@ p {
   }
 
   .intro__title h1 {
-    font-size: 100px;
+    font-size: 80px;
   }
 
   .counter__item {
@@ -493,6 +493,7 @@ p {
 
   .counter__row {
     align-items: flex-start;
+    flex-wrap: wrap;
   }
 
   .counter__row p {
@@ -515,7 +516,18 @@ p {
 
   .services__row-item {
     display: inline-flex;
-    max-width: 40%;
+    flex-wrap: wrap;
+    border: 1px solid #999999;
+    max-width: 33%;
+  }
+
+  .services__row-item h4 {
+    margin: 10px 0px;
+    text-align: center;
+  }
+
+  .services__row-item img {
+    margin-left: 50%;
   }
 
   .slider__element:after {
