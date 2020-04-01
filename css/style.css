@@ -525,7 +525,6 @@ p {
   .services__row-item {
     display: inline-flex;
     flex-wrap: wrap;
-    border: 1px solid #999999;
     max-width: 33%;
   }
 
