@@ -112,6 +112,7 @@ body, input, button, textarea, a {
   background-color: #e84545;
   padding: 13px 46px;
   margin: 0 auto;
+  transition: all 0.1s linear;
 }
 
 .btn:hover {
@@ -342,6 +343,7 @@ body, input, button, textarea, a {
   border: 1px solid #c6cacc;
   border-radius: 3px;
   margin: 2px;
+  transition: all 0.1s linear;
 }
 
 .social a:hover {
