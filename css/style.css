@@ -119,7 +119,7 @@ body, input, button, textarea, a {
 }
 
 .header {
-  margin: 0px 0px 13% 0px;
+  margin: 0px 0px 8% 0px;
 }
 
 .header__row {
@@ -632,8 +632,10 @@ body, input, button, textarea, a {
     margin: 0px 0px 35px 0px;
   }
 }
-.photo img {
-  object-position: 100px top;
+@media (max-width: 991.98px) {
+  .photo img {
+    object-position: 100px top;
+  }
 }
 
 @media (max-width: 991.98px) {
