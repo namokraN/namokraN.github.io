@@ -154,16 +154,12 @@ body, input, button, textarea, a {
   transition: all 0.1s linear;
 }
 
-.header__burger.active {
-  border: 1px solid red;
-}
-
 .header__burger.active:before {
-  transform: translateY(10px) rotate(-45deg);
+  transform: translateY(10px) translateX(-5px) rotate(-45deg);
 }
 
 .header__burger.active:after {
-  transform: translateY(-10px) rotate(45deg);
+  transform: translateY(-10px) translateX(5px) rotate(45deg);
 }
 
 .header__burger.active span {
@@ -183,11 +179,12 @@ body, input, button, textarea, a {
 
 .header__burger:before {
   top: 0;
+  left: 5px;
 }
 
 .header__burger:after {
   top: 20px;
-  left: 0px;
+  left: -5px;
   width: 100%;
 }
 
