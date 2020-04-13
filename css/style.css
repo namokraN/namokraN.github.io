@@ -261,6 +261,7 @@ body, input, button, textarea, a {
 }
 
 .features__item {
+  display: flex;
   width: 26%;
   min-height: 186px;
   text-align: center;
@@ -270,8 +271,12 @@ body, input, button, textarea, a {
   animation: bounce 2s;
 }
 
+.features__item-info {
+  margin: 0px 0px 0px 10px;
+}
+
 .features__item-image {
-  margin: 15px 0px 0px 0px;
+  margin: 15px 20px 0px 0px;
   width: 50px;
   height: 50px;
 }
@@ -714,7 +719,7 @@ body, input, button, textarea, a {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    margin: 0px;
+    margin: 0px 0px 25px 0px;
     min-height: 50px;
   }
 }

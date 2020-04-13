@@ -13,6 +13,12 @@ $(document).ready(function() {
 // 	});
 // });
 
+// $(document).ready(function(windowSize()) {
+// 	if ($(window).width() > '765'){
+// 		$('.features__item-text').slideUp(300);
+// 	}
+// }
+
 // АККОРДЕОН
 $(document).ready(function() {
 	$('.features__item-title').click(function(event) {
@@ -23,7 +29,6 @@ $(document).ready(function() {
 		}
 	});
 
-	if ($(window).width() > '765'){
-			$('.features__item-title').removeClass('active');
-		}
+
 });
+
