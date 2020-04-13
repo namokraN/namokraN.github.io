@@ -7,9 +7,17 @@ $(document).ready(function() {
 });
 
 // СЛАЙДЕР
+// $(document).ready(function() {
+// 	$('.features__item-title').click(function(event) {
+// 		$(this).toggleClass('active').next().slideToggle(300);
+// 	});
+// });
+
+// АККОРДЕОН
 $(document).ready(function() {
 	$('.features__item-title').click(function(event) {
+		$('.features__item-title').not($(this)).removeClass('active');
+		$('.features__item-text').not($(this).next()).slideUp(300);
 		$(this).toggleClass('active').next().slideToggle(300);
-		// $('body').toggleClass('lock');
 	});
 });
