@@ -16,8 +16,14 @@ $(document).ready(function() {
 // АККОРДЕОН
 $(document).ready(function() {
 	$('.features__item-title').click(function(event) {
-		$('.features__item-title').not($(this)).removeClass('active');
-		$('.features__item-text').not($(this).next()).slideUp(300);
-		$(this).toggleClass('active').next().slideToggle(300);
+		if ($(window).width() <= '765'){
+			$('.features__item-title').not($(this)).removeClass('active');
+			$('.features__item-text').not($(this).next()).slideUp(300);
+			$(this).toggleClass('active').next().slideToggle(300);
+		}
 	});
+
+	if ($(window).width() > '765'){
+			$('.features__item-title').removeClass('active');
+		}
 });
