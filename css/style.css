@@ -377,25 +377,6 @@ body, input, button, textarea, a {
   justify-content: flex-start;
 }
 
-.workers__element-photo:hover:before {
-  content: url("../../img/icons/moustache.png");
-  position: absolute;
-  top: 9%;
-  left: 32%;
-  width: 100%;
-  height: 100%;
-}
-
-.workers__element:nth-of-type(2) .workers__element-photo:hover:before {
-  top: 12%;
-  left: 30%;
-}
-
-.workers__element:nth-of-type(4) .workers__element-photo:hover:before {
-  top: 10%;
-  left: 27%;
-}
-
 .name {
   min-height: 40px;
   color: #4b4e50;
@@ -828,6 +809,26 @@ body, input, button, textarea, a {
   }
 }
 
+@media (min-width: 1186px) {
+  .workers__element-photo:hover:before {
+    content: url("../../img/icons/moustache.png");
+    position: absolute;
+    top: 9%;
+    left: 32%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .workers__element:nth-of-type(2) .workers__element-photo:hover:before {
+    top: 12%;
+    left: 30%;
+  }
+
+  .workers__element:nth-of-type(4) .workers__element-photo:hover:before {
+    top: 10%;
+    left: 27%;
+  }
+}
 @media (max-width: 767.98px) {
   .workers__row {
     flex-wrap: wrap;
